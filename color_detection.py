@@ -1,6 +1,5 @@
 import cv2 
 import color
-from PIL import Image
 
 video = cv2.VideoCapture(0)
 
@@ -36,4 +35,5 @@ while True:
         break
 
 video.release()
+
 cv2.destroyAllWindows()
